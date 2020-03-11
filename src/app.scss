@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+#root {
+  background: grey;
+  min-height: 100vh;
+  padding: 20px;
+}
+.App {
+  display: grid;
+  grid-template: 1fr/ 1fr 1fr;
+  grid-gap: 10px;
+}
